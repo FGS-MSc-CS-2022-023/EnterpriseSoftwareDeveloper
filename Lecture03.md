@@ -1,6 +1,6 @@
 *2024-12-02*
 
-## Component Based Architecture
+# Component Based Architecture
 
 ![](./images/interface.png)
 ![](./images/oracleerp.png)
@@ -68,5 +68,44 @@ application is a single, integrated unit.
 - As the application grows, complexity increases, making maintenance and scaling difficult.
     - Limited Scalability: All components must scale together, leading to inefficiencies.
 
+![](./images/monolitic.png)
 
+## Benefits
 
+- Simpler development and deployment: Initial development simplicity due
+to single codebase. Easy to deploy and manage in smaller environments.
+- Less Overhead: Fewer cross-service communication and management
+complexities.
+- Better performance: Monolithic apps, in turn, allow faster communication
+between software components due to shared code and memory
+- Integrated Development Environment: Easier to work within a single IDE.
+
+## Drawbacks
+
+- Scalability: Difficult to scale specific parts of the application independently.
+- Maintainability: Large codebase can become difficult to maintain overtime.
+- Deployment: A small change requires redeployment of the entire
+application.
+- Reliability: A bug in any part of the application can affect the entire system.
+- Difficult to adopt new technologies: Adding new technology means rewriting the whole application.
+- Limited agility: When several teams are working on the same project, agility can be reduced greatly.
+
+## Use Cases
+
+- Legacy Systems: Many older systems use monolithic architecture due to its simplicity.
+- Small Applications: Suitable for small applications or startups with limited functionality.
+
+# Service Oriented Architecture
+
+Service-Oriented Architecture (SOA) is a software architectural style which provides services to other components via a communications protocol like HTTP or SOAP (Simple Object Access Protocol)., typically over a network.
+
+![](./images/soa.png)
+
+## Evolution of SOA
+
+- Loosely coupled architecture
+- Designed to achieve the business needs
+- Contains OO, Components and service message passing in between them
+- Agile friendly
+
+![](./images/soa_develop.png)
