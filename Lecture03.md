@@ -109,3 +109,21 @@ Service-Oriented Architecture (SOA) is a software architectural style which prov
 - Agile friendly
 
 ![](./images/soa_develop.png)
+
+- A design pattern where services are provided to other components by application components, through a communication protocol over a network.
+- Purpose is to allow different services to communicate with each other and be reused independently.
+
+![](./images/soa_arch.png)
+
+**SOA can involve more than one databases but a specific service is not tied to an specific database**
+
+Esb vs Queues?
+
+## SOA Benefits
+
+![](./images/soa_advantages.png)
+
+## SOA Components
+
+![](./images/soa_components.png)
+
