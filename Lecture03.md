@@ -127,3 +127,4 @@ Esb vs Queues?
 
 ![](./images/soa_components.png)
 
+Exam Q) What are the components of SOA
