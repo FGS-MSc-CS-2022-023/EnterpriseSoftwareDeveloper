@@ -74,3 +74,108 @@ menu, place orders, and make payments.
 the system with minimal complexity.
 - The volume of traffic is relatively low and manageable within a single
 codebase.
+
+3. A modular home automation system.
+- The system includes various components such as lighting control, security
+monitoring, temperature)regulation, and energy management.
+Each component needs to be developed and updated independently while
+working together seamlessly.
+- Users should be able to customize their system by adding or removing
+components based on their needs. 
+
+(Event driven/Microservice)
+
+4. An educational platform for online courses and learning management.
+- The platform needs to manage user accounts, courses, quizzes, and grades.
+- It requires a clear separation between data (students, courses), the user
+interface (course pages, quizzes), and control logic (user authentication, course
+enrollment).
+- The development team wants to follow a structured approach to ensure
+maintainability and scalability as the platform grows. 
+
+(Layered)
+
+5. A university management system to manage courses, students, and faculty.
+- The system needs to handle user interactions (student portal, faculty portal),
+application logic (course registration, grading), and data management (student
+records, course catalog).
+- Each layer (presentation, business logic, data access) is clearly defined and separated.
+- This separation promotes maintainability and simplifies development and testing.
+
+(MVC)
+
+# Software System Architecture
+
+This means
+
+- The high-level structure and organization of software components that define how they interact and work together.
+- An effective software architecture provides a solid foundation for building scalable, maintainable, and efficient enterprise applications.
+- Key components and principles of software system architecture:
+Overview of architectural components such as modules, interfaces, data stores, and architectural principles ..
+
+## What is the architecture view?
+
+- A view means the manner of looking at something
+- For better understanding and managing , multi dimensional view must be taken
+for any complex entity , multiple parameters / specialties involved.
+- For example, what are the views of a building ...
+- Room layout
+- 3D view of building / room
+- Electrical diagram
+- Plumbing diagram
+- Security alarm diagram etc ... etc ...
+- Which of the above view is Architecture ?
+- Not one but ALL of them ( sets of parts work together as a successful whole)
+- In Software, What are views ?
+
+## Definition of Software View
+
+- Software architecture descriptions are commonly organized into <ins>*views*</ins>,
+- Each <ins>*view*</ins> addresses a set of system concerns, following the conventions of
+its <ins>*viewpoint*</ins>.
+    - Viewpoint - <ins>A position or direction</ins> from which something is observed or considered;
+    - View - Dotails or full specification considered from that viewpoint
+        - (describes the notations, modeling and analysis techniques that express the architecture in
+question from the perspective of a given set of stakeholders )
+- **So, a view of a system is a representation of the system from the perspective of a viewpoint.**
+
+## Examples of Software Views
+
+A <ins>view</ins> allows a user to examine a portion of a particular interest area.
+
+- A Logical View ( top / overall / bird's eye view) 
+    - all functions,
+    - organizations,
+- Implementation(Deployment) view
+    - Technology ( HW and networking)
+    - Module sequence
+- Developmental view
+    - Front end
+    - Backend
+    - Database connectivity
+
+- Process View
+    - Modules and its functions,
+    - Their interactions
+    - Control points
+    - Non Functional Requirements
+- Security View
+    - User Id / Password
+    - Graphical password
+    - Transactional password
+- +++ other views
+
+## Uses of Views
+
+- Communication:
+    - Stakeholder Communication
+    - Clarity and Understanding
+- Documentation:
+    - Detailed Documentation
+    - Reference Material
+- Design Validation:
+    - Consistency Checks
+    - Scenario Validation
+- Analysis and Optimization:
+    - Performance Analysis
+    - Deployment Planning
