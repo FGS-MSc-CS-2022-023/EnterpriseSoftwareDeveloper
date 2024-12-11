@@ -105,9 +105,13 @@ Example view,
 
 - The 4 + 1 views are a generic approach that does not prescribe any specific notation or diagramming structure (although Booch notation is used in the paper).
 - An alternative approach to talk about software, which resulted in the Unified Modeling Language Framework was also introduced.
-- UML is a standard notation for the modeling of real-world objects as a first step in developing an object-oriented design methodology ..
+- UML is a standard notation for the modeling of real-world objects as a first step in developing an object-oriented design methodology .
 
 ![](./images/sequencialdiagram.png)
+![](./images/sequencialdiagram2.png)
+
+![](./images/classDiagram-1.png)
+![](./images/classDiagram-2.png)
 
 ## List of online tools to create diagrams
 
