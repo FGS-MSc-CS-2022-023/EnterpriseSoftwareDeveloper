@@ -179,3 +179,10 @@ processing nodes.
 including the physical distribution of processes and threads.
 
 (Exam: Class diagram or sequencial diagram or activity diagram)
+
+![](./images/deploydiagram.png)
+
+## View Vs. Notation
+
+![](./images/viewvsnotation.png)
+
