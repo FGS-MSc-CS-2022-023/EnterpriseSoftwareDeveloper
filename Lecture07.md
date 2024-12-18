@@ -49,3 +49,29 @@ lifetime of an application
     - Make the class responsible for keeping track of its sole instance (users cannot explicitly instantiate this class)
     - Provide a global way to access the instance
 - Client access singleton instance only via `SingletonOperation()`
+
+## Key Concepts:
+
+1. Private Constructor: The Singleton class has a private constructor, preventing direct instantiation of the object from outside the class.
+2. Private Static Instance: The Singleton class contains a private static instance of itself. This instance is typically created and initialized only once, lazily or eagerly depending on the implementation.
+3. Static Method for Access: It provides a static method (often named getInstance()) that allows clients to access the single instance of the class. This method ensures that only one instance is created and provides a global point of access to that instance.
+
+## Benefits of Singleton Pattern
+
+- Controlled Access: Ensures that there is only one instance of the class, providing a single point of access to that instance.
+- Memory Efficiency: Prevents multiple instances from being created, which can be beneficial in memory-constrained environments.
+- Global Point of Access: Facilitates centralized access to resources or shared objects.
+
+## Example for Singleton Pattern Usage
+
+- Singleton - Examples:
+    - Clip board
+    - Windows registry (System parameters)
+
+
+## Exercise
+
+- You are a developer at Microsoft who is responsible to develop the "Windows Clipboard" for their next operating system. Windows Clipboard is used to share (copy/paste) data between different instances of the same application or between different application instances. Design  requirement is to have only one instance of the
+windows clipboard class at any given point of time while thousands of other application instances utilizing the one and only clipboard instance to share data between them.
+
+- Implement a sample windows clipboard class.
